@@ -14,3 +14,6 @@
 
 ### Read PWM From T12 Rx (3.3v) 
 - Use "PWM_reader_002_1.py"
+- Reading PWM Values From t12 Rx on Ch9
+- <img width="1255" height="993" alt="image" src="https://github.com/user-attachments/assets/128309ab-ec41-4d4e-9368-a02825f4fdfe" />
+
