@@ -26,8 +26,10 @@
 - version 5:- Now Implement the another state machine for the stapper motor @1MHz with fixed delay (i.e, fixed speed)
 - Version 4:- Make a function to calculate step delay cycles(no.of Instruction for delay) for stepper motor  
 - Version 3:- Make a function to convert safe_target_rpm to steps required per second (for stepper motor with gearbox)
-- Version 2:-  Make a seperate fuction in python for pwm mesurement and map the read pwm values with rpm 
+   - Refer "Read_PWM_Control_Stepper_Speed_001.py" Circuit in the code
+- Version 2:-  Make a seperate fuction in python for pwm mesurement and map the read pwm values with rpm
+  - Refer "Read_PWM_Control_Stepper_Speed_002.py" Circuit in the code 
 - Version 1 :- Measure the counts(Cycles) for the +width of a PWM Signal using a State Machine @125MHz
              and Compute the corresponding PWM value in Main Python Loop
-    - Refer "Read_PWM_Control_Stepper_Speed_001.py" Circuit in the code
+  - Refer "Read_PWM_Control_Stepper_Speed_001.py" Circuit in the code
 
