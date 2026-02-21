@@ -21,12 +21,17 @@
 - For Reading PWM From Servo tester 
 - Version 8:- Implement cutoff pwm and disable the driver when read pwm widht is under it,
             also only call "sm1.put()" if found significant change in no.of cycles(reduces fluctuation in stepper speed)
-- Version 7:- Version 6 got failed to output variable pulse widths for stepper driver, updates "ASM Code For Stepper" For Stepper with  
+  - Refer "Read_PWM_Control_Stepper_Speed_008.py" Circuit in the code
+- Version 7:- Version 6 got failed to output variable pulse widths for stepper driver, updates "ASM Code For Stepper" For Stepper with
+  - Refer "Read_PWM_Control_Stepper_Speed_007.py" Circuit in the code
 - version 6:- Now make speed dynamic not fixed delay count any more
+  - Refer "Read_PWM_Control_Stepper_Speed_006.py" Circuit in the code
 - version 5:- Now Implement the another state machine for the stapper motor @1MHz with fixed delay (i.e, fixed speed)
-- Version 4:- Make a function to calculate step delay cycles(no.of Instruction for delay) for stepper motor  
+  - Refer "Read_PWM_Control_Stepper_Speed_005.py" Circuit in the code
+- Version 4:- Make a function to calculate step delay cycles(no.of Instruction for delay) for stepper motor
+  - Refer "Read_PWM_Control_Stepper_Speed_004.py" Circuit in the code  
 - Version 3:- Make a function to convert safe_target_rpm to steps required per second (for stepper motor with gearbox)
-   - Refer "Read_PWM_Control_Stepper_Speed_001.py" Circuit in the code
+   - Refer "Read_PWM_Control_Stepper_Speed_003.py" Circuit in the code
 - Version 2:-  Make a seperate fuction in python for pwm mesurement and map the read pwm values with rpm
   - Refer "Read_PWM_Control_Stepper_Speed_002.py" Circuit in the code 
 - Version 1 :- Measure the counts(Cycles) for the +width of a PWM Signal using a State Machine @125MHz
