@@ -18,7 +18,6 @@
 - <img width="1255" height="993" alt="image" src="https://github.com/user-attachments/assets/128309ab-ec41-4d4e-9368-a02825f4fdfe" />
 
 ### For a Detailed Work Flow 
-- For Reading PWM From Servo tester 
 - Version 8:- Implement cutoff pwm and disable the driver when read pwm widht is under it,
             also only call "sm1.put()" if found significant change in no.of cycles(reduces fluctuation in stepper speed)
   - Refer "Read_PWM_Control_Stepper_Speed_008.py" Circuit in the code
