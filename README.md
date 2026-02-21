@@ -18,10 +18,10 @@
 - <img width="1255" height="993" alt="image" src="https://github.com/user-attachments/assets/128309ab-ec41-4d4e-9368-a02825f4fdfe" />
 
 ### For a Detailed Work Flow 
-- Version 8:- Implement cutoff pwm and disable the driver when read pwm widht is under it,
+- *Version 8:-* Implement cutoff pwm and disable the driver when read pwm widht is under it,
             also only call "sm1.put()" if found significant change in no.of cycles(reduces fluctuation in stepper speed)
   - Refer "Read_PWM_Control_Stepper_Speed_008.py" Circuit in the code
-- Version 7:- Version 6 got failed to output variable pulse widths for stepper driver, updates "ASM Code For Stepper" For Stepper with
+- *Version 7:-* Version 6 got failed to output variable pulse widths for stepper driver, updates "ASM Code For Stepper" For Stepper with
   - Refer "Read_PWM_Control_Stepper_Speed_007.py" Circuit in the code
 - version 6:- Now make speed dynamic not fixed delay count any more
   - Refer "Read_PWM_Control_Stepper_Speed_006.py" Circuit in the code
