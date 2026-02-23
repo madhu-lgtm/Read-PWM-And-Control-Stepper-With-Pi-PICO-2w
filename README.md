@@ -47,7 +47,7 @@
   - Check "Seed Picker Control V2.pdf" For Circuit
   <img width="658" height="775" alt="image" src="https://github.com/user-attachments/assets/a4f63ca6-76b6-48da-a137-b90ec002c759" />
 
-  ## Field Test 1:- (Code & Cicuit Submitted For Testing : 23-feb-2026)
+  ## Field Test 1:- (Code & Circuit Submitted For Testing : 23-feb-2026)
   - Use "Read_PWM_Control_Stepper_Speed_008_01.py" Program
   - Use Circuit "Seed Picker Control V2"
 
