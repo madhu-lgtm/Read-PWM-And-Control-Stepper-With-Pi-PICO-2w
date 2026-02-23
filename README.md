@@ -23,6 +23,7 @@
 ### For a Detailed Work Flow 
 - **Version 8_1:-**  Changed Stepper Motor From Nema 17 42HS60-1684 to Nema 17 42HS48-1684 With Gear Box 1:3.71
             and Change PWM Values Of Cube FC (Updated Connections For Fc)
+  - Refer "Read_PWM_Control_Stepper_Speed_008_01.py" Circuit in the code
 - **Version 8:-** Implement cutoff pwm and disable the driver when read pwm widht is under it,
             also only call "sm1.put()" if found significant change in no.of cycles(reduces fluctuation in stepper speed)
   - Refer "Read_PWM_Control_Stepper_Speed_008.py" Circuit in the code
