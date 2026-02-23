@@ -17,6 +17,9 @@
 - Reading PWM Values From t12 Rx on Ch9
 - <img width="1255" height="993" alt="image" src="https://github.com/user-attachments/assets/128309ab-ec41-4d4e-9368-a02825f4fdfe" />
 
+### Micro Python UF2 File For Pi Pico 2w
+- Load Micro Python Envirnoment into Pi Pico 2w For Correct uf2 File, Refere :- "RPI_PICO2_W-20251209-v1.27.0.uf2" in above files 
+
 ### For a Detailed Work Flow 
 - **Version 8:-** Implement cutoff pwm and disable the driver when read pwm widht is under it,
             also only call "sm1.put()" if found significant change in no.of cycles(reduces fluctuation in stepper speed)
