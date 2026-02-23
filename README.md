@@ -40,3 +40,8 @@
              and Compute the corresponding PWM value in Main Python Loop
   - Refer "Read_PWM_Control_Stepper_Speed_001.py" Circuit in the code
 
+  ### Circuit Dia :-
+  - Check "Seed Picker Control V2.pdf" For Circuit
+  <img width="658" height="775" alt="image" src="https://github.com/user-attachments/assets/a4f63ca6-76b6-48da-a137-b90ec002c759" />
+
+
