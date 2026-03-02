@@ -115,7 +115,7 @@ MIN_PWM = CUT_OFF_PWM # As i need minimum rpm too
 
 
 MICRO_STEPS = 3200 # Pulses per Revolution
-GEAR_RATIO = 1.0#If their is no gear box keep 1.0
+GEAR_RATIO = 3.71#If their is no gear box keep 1.0
                   #If gearbox is used example:- 1:3.71 gear ratio "GEAR_RATIO = 3.71"
 
 step_pin = Pin(2, Pin.OUT) #GPIO2
@@ -264,5 +264,6 @@ while True:
         
         
     
+
 
 
