@@ -51,4 +51,9 @@
   ## Field Test 1:- (Code & Circuit Submitted For Testing : 23-feb-2026)
   - Use "Read_PWM_Control_Stepper_Speed_008_01.py" Program
   - Use Circuit "Seed Picker Control V2"
+# Final Update Code as of 07-Mar-2026
+- Use "Read_PWM_Control_Stepper_Speed_14.py" Program
+- Use Circuit "Seed Picker and Pipe Folder Control V2.1"
+<img width="1220" height="1520" alt="SCH_Schematic3_1-P1_2026-03-07" src="https://github.com/user-attachments/assets/b49079df-e08d-4499-ab4a-9cebd2b79f19" />
+
 
